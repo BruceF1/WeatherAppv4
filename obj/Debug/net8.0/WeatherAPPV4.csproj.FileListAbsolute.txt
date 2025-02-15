@@ -1,0 +1,9 @@
+C:\Users\BruceFarthing\source\repos\WeatherAPPV4\obj\Debug\net8.0\WeatherAPPV4.csproj.AssemblyReference.cache
+C:\Users\BruceFarthing\source\repos\WeatherAPPV4\obj\Debug\net8.0\WeatherAPPV4.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\BruceFarthing\source\repos\WeatherAPPV4\obj\Debug\net8.0\WeatherAPPV4.AssemblyInfoInputs.cache
+C:\Users\BruceFarthing\source\repos\WeatherAPPV4\obj\Debug\net8.0\WeatherAPPV4.AssemblyInfo.cs
+C:\Users\BruceFarthing\source\repos\WeatherAPPV4\obj\Debug\net8.0\WeatherAPPV4.csproj.CoreCompileInputs.cache
+C:\Users\BruceFarthing\source\repos\WeatherAPPV4\obj\Debug\net8.0\WeatherAPPV4.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\BruceFarthing\source\repos\WeatherAPPV4\obj\Debug\net8.0\WeatherAPPV4.RazorAssemblyInfo.cache
+C:\Users\BruceFarthing\source\repos\WeatherAPPV4\obj\Debug\net8.0\WeatherAPPV4.RazorAssemblyInfo.cs
+C:\Users\BruceFarthing\source\repos\WeatherAPPV4\obj\Debug\net8.0\WeatherAPPV4.sourcelink.json
