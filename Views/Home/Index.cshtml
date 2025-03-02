@@ -1,8 +1,35 @@
-﻿@{
+﻿@model List<WeatherViewModel>
+@{
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+<table>
+    <thead>
+        <tr>
+            <th>Time</th>
+            <th>Swell Height</th>
+            <th>Swell Period</th>
+            <th>Swell Period</th>
+            <th>Swell Direction</th>
+            <th>Air Temperature</th>
+            <th>Wind Direction</th>
+            <th>Wind Speed</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Time</td>
+                <td>@item.SwellHeight</td>
+                <td>@item.SwellPeriod</td>
+                <td>@item.SwellDirection</td>
+                <td>@item.Airtemperature</td>
+                <td>@item.Watertemperature</td>
+                <td>@item.Winddirection</td>
+                <td>@item.Windspeed</td>
+            </tr>
+        }
+    </tbody>
+</table>
+

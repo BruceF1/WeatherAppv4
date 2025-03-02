@@ -1,11 +1,20 @@
-using Microsoft.AspNetCore.Builder;
+global using Microsoft.Data.SqlClient;
+global using Dapper;
+using WeatherAPPV4.Data;
+using WeatherAPPV4.Models;
+using Microsoft.Extensions.Logging;
+using WeatherAPPV4.Controllers;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+builder.Services.AddHttpClient<WeatherService>();
 builder.Services.AddEndpointsApiExplorer(); // Required for Swagger
 builder.Services.AddSwaggerGen(); // Registers Swagger
+builder.Services.Configure<ApiSettings>(builder.Configuration.GetSection("ApiSettings"));
+
+builder.Services.AddSingleton<DbInitializer>();
 
 var app = builder.Build();
 
@@ -33,5 +42,8 @@ app.UseAuthorization();
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
+
+var dbInitializer = app.Services.GetRequiredService<DbInitializer>();
+dbInitializer.Initialize();
 
 app.Run();

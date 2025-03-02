@@ -1,1 +1,23 @@
-[]
+[
+  {
+    "ContainingType": "WeatherAPPV4.Controllers.HomeController",
+    "Method": "GetWeather",
+    "RelativePath": "forecast",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "latitude",
+        "Type": "System.Double",
+        "IsRequired": false
+      },
+      {
+        "Name": "longitude",
+        "Type": "System.Double",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
