@@ -10,6 +10,5 @@
         public float Watertemperature { get; set; }
         public float Winddirection { get; set; }
         public float Windspeed { get; set; }
-        public float Noaa { get; set; }
     }
 }

@@ -37,5 +37,23 @@ namespace WeatherAPPV4.Data
                 throw new Exception("Error fetching data", ex);
             }
         }
+
+        public List<Hour> GetWeatherFromDB() 
+        {
+            try
+            {
+                List<RootObject> currentWeather = new List<RootObject>();
+                using (var connection = new SqlConnection("AppDatabase"))
+                {
+                    connection.Open();
+                    return connection.Query<Hour>("SELECT * FROM [WeatherAPP4].[dbo].[Weather]").ToList();
+                }
+            }
+            catch(Exception ex)
+            {
+                throw new Exception("Error fetching data from DB", ex);
+            }
+        }
+
     }
 }

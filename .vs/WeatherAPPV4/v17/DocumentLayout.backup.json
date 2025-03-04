@@ -3,28 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\BruceFarthing\\source\\repos\\WeatherAPPV4\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8596B04D-D9ED-4584-A6A4-66D9B7BBD84B}|WeatherAPPV4.csproj|c:\\users\\brucefarthing\\source\\repos\\weatherappv4\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
-      "RelativeMoniker": "D:0:0:{8596B04D-D9ED-4584-A6A4-66D9B7BBD84B}|WeatherAPPV4.csproj|solutionrelative:readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{8596B04D-D9ED-4584-A6A4-66D9B7BBD84B}|WeatherAPPV4.csproj|c:\\users\\brucefarthing\\source\\repos\\weatherappv4\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8596B04D-D9ED-4584-A6A4-66D9B7BBD84B}|WeatherAPPV4.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8596B04D-D9ED-4584-A6A4-66D9B7BBD84B}|WeatherAPPV4.csproj|c:\\users\\brucefarthing\\source\\repos\\weatherappv4\\models\\weatherviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8596B04D-D9ED-4584-A6A4-66D9B7BBD84B}|WeatherAPPV4.csproj|solutionrelative:models\\weatherviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8596B04D-D9ED-4584-A6A4-66D9B7BBD84B}|WeatherAPPV4.csproj|c:\\users\\brucefarthing\\source\\repos\\weatherappv4\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8596B04D-D9ED-4584-A6A4-66D9B7BBD84B}|WeatherAPPV4.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8596B04D-D9ED-4584-A6A4-66D9B7BBD84B}|WeatherAPPV4.csproj|c:\\users\\brucefarthing\\source\\repos\\weatherappv4\\models\\hour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8596B04D-D9ED-4584-A6A4-66D9B7BBD84B}|WeatherAPPV4.csproj|solutionrelative:models\\hour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8596B04D-D9ED-4584-A6A4-66D9B7BBD84B}|WeatherAPPV4.csproj|c:\\users\\brucefarthing\\source\\repos\\weatherappv4\\models\\airtemperature.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8596B04D-D9ED-4584-A6A4-66D9B7BBD84B}|WeatherAPPV4.csproj|solutionrelative:models\\airtemperature.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8596B04D-D9ED-4584-A6A4-66D9B7BBD84B}|WeatherAPPV4.csproj|c:\\users\\brucefarthing\\source\\repos\\weatherappv4\\data\\weatherservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8596B04D-D9ED-4584-A6A4-66D9B7BBD84B}|WeatherAPPV4.csproj|solutionrelative:data\\weatherservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8596B04D-D9ED-4584-A6A4-66D9B7BBD84B}|WeatherAPPV4.csproj|c:\\users\\brucefarthing\\source\\repos\\weatherappv4\\data\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8596B04D-D9ED-4584-A6A4-66D9B7BBD84B}|WeatherAPPV4.csproj|solutionrelative:data\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8596B04D-D9ED-4584-A6A4-66D9B7BBD84B}|WeatherAPPV4.csproj|c:\\users\\brucefarthing\\source\\repos\\weatherappv4\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8596B04D-D9ED-4584-A6A4-66D9B7BBD84B}|WeatherAPPV4.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8596B04D-D9ED-4584-A6A4-66D9B7BBD84B}|WeatherAPPV4.csproj|c:\\users\\brucefarthing\\source\\repos\\weatherappv4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8596B04D-D9ED-4584-A6A4-66D9B7BBD84B}|WeatherAPPV4.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8596B04D-D9ED-4584-A6A4-66D9B7BBD84B}|WeatherAPPV4.csproj|c:\\users\\brucefarthing\\source\\repos\\weatherappv4\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8596B04D-D9ED-4584-A6A4-66D9B7BBD84B}|WeatherAPPV4.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{8596B04D-D9ED-4584-A6A4-66D9B7BBD84B}|WeatherAPPV4.csproj|c:\\users\\brucefarthing\\source\\repos\\weatherappv4\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8596B04D-D9ED-4584-A6A4-66D9B7BBD84B}|WeatherAPPV4.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 70,
-          "SelectedChildIndex": 33,
+          "SelectedChildIndex": 40,
           "Children": [
             {
               "$type": "Bookmark",
@@ -169,81 +177,86 @@
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "README.md",
-              "DocumentMoniker": "C:\\Users\\BruceFarthing\\source\\repos\\WeatherAPPV4\\README.md",
-              "RelativeDocumentMoniker": "README.md",
-              "ToolTip": "C:\\Users\\BruceFarthing\\source\\repos\\WeatherAPPV4\\README.md",
-              "RelativeToolTip": "README.md",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
-              "WhenOpened": "2025-02-23T10:39:33.718Z",
+              "DocumentIndex": 4,
+              "Title": "Airtemperature.cs",
+              "DocumentMoniker": "C:\\Users\\BruceFarthing\\source\\repos\\WeatherAPPV4\\Models\\Airtemperature.cs",
+              "RelativeDocumentMoniker": "Models\\Airtemperature.cs",
+              "ToolTip": "C:\\Users\\BruceFarthing\\source\\repos\\WeatherAPPV4\\Models\\Airtemperature.cs",
+              "RelativeToolTip": "Models\\Airtemperature.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T06:58:35.162Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "WeatherService.cs",
-              "DocumentMoniker": "C:\\Users\\BruceFarthing\\source\\repos\\WeatherAPPV4\\Data\\WeatherService.cs",
-              "RelativeDocumentMoniker": "Data\\WeatherService.cs",
-              "ToolTip": "C:\\Users\\BruceFarthing\\source\\repos\\WeatherAPPV4\\Data\\WeatherService.cs",
-              "RelativeToolTip": "Data\\WeatherService.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAEwBEAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-23T10:18:49.413Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\BruceFarthing\\source\\repos\\WeatherAPPV4\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\BruceFarthing\\source\\repos\\WeatherAPPV4\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAowAgAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-23T10:12:48.922Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "DbInitializer.cs",
-              "DocumentMoniker": "C:\\Users\\BruceFarthing\\source\\repos\\WeatherAPPV4\\Data\\DbInitializer.cs",
-              "RelativeDocumentMoniker": "Data\\DbInitializer.cs",
-              "ToolTip": "C:\\Users\\BruceFarthing\\source\\repos\\WeatherAPPV4\\Data\\DbInitializer.cs",
-              "RelativeToolTip": "Data\\DbInitializer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEYAAAADAAAAAAAAAA==",
+              "Title": "Hour.cs",
+              "DocumentMoniker": "C:\\Users\\BruceFarthing\\source\\repos\\WeatherAPPV4\\Models\\Hour.cs",
+              "RelativeDocumentMoniker": "Models\\Hour.cs",
+              "ToolTip": "C:\\Users\\BruceFarthing\\source\\repos\\WeatherAPPV4\\Models\\Hour.cs",
+              "RelativeToolTip": "Models\\Hour.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAIAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-23T08:51:56.029Z"
+              "WhenOpened": "2025-03-03T09:27:13.341Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\BruceFarthing\\source\\repos\\WeatherAPPV4\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\BruceFarthing\\source\\repos\\WeatherAPPV4\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-03T09:22:35.767Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\BruceFarthing\\source\\repos\\WeatherAPPV4\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\BruceFarthing\\source\\repos\\WeatherAPPV4\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-02T08:21:00.825Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\BruceFarthing\\source\\repos\\WeatherAPPV4\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
               "ToolTip": "C:\\Users\\BruceFarthing\\source\\repos\\WeatherAPPV4\\Controllers\\HomeController.cs",
               "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAwB8AAAA4AAAAAAAAAA==",
+              "ViewState": "AgIAAGEAAAAAAAAAAAAhwGkAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-23T08:20:58.224Z"
+              "WhenOpened": "2025-03-02T08:20:03.035Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\BruceFarthing\\source\\repos\\WeatherAPPV4\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\BruceFarthing\\source\\repos\\WeatherAPPV4\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-23T08:20:23.815Z"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\BruceFarthing\\source\\repos\\WeatherAPPV4\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\BruceFarthing\\source\\repos\\WeatherAPPV4\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-02T08:20:03.31Z",
+              "EditorCaption": ""
             }
           ]
         },
@@ -282,6 +295,74 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "FloatingWindowState": {
+        "Id": "75a221f0-6e68-474c-b8ae-f9e071a19503",
+        "Display": 2,
+        "X": 1,
+        "Y": 1,
+        "Width": 1598,
+        "Height": 850,
+        "WindowState": 2
+      },
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "WeatherService.cs",
+              "DocumentMoniker": "C:\\Users\\BruceFarthing\\source\\repos\\WeatherAPPV4\\Data\\WeatherService.cs",
+              "RelativeDocumentMoniker": "Data\\WeatherService.cs",
+              "ToolTip": "C:\\Users\\BruceFarthing\\source\\repos\\WeatherAPPV4\\Data\\WeatherService.cs",
+              "RelativeToolTip": "Data\\WeatherService.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAADwvyYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-03T09:19:40.587Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "FloatingWindowState": {
+        "Id": "e0bdb872-2551-4d4f-82f7-47eca842ef2c",
+        "Display": 2,
+        "X": 1,
+        "Y": 1,
+        "Width": 1598,
+        "Height": 850,
+        "WindowState": 2
+      },
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "WeatherViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\BruceFarthing\\source\\repos\\WeatherAPPV4\\Models\\WeatherViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\WeatherViewModel.cs",
+              "ToolTip": "C:\\Users\\BruceFarthing\\source\\repos\\WeatherAPPV4\\Models\\WeatherViewModel.cs",
+              "RelativeToolTip": "Models\\WeatherViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T08:00:17.816Z",
+              "EditorCaption": ""
             }
           ]
         }
