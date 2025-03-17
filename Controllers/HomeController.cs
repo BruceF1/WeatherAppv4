@@ -25,12 +25,14 @@ namespace WeatherAPPV4.Controllers
         {
             try
             {
+                var currentTime = DateTime.Now;
                 var dbWeatherData = GetWeatherFromDB();
 
                 if (dbWeatherData != null && dbWeatherData.Any())
                 {
                     var viewModel = dbWeatherData.Select(hour => new WeatherViewModel
                     {
+                        CurrentTime = currentTime,
                         Time = hour.Time != null ? hour.Time : DateTime.MinValue,
                         SwellHeight = hour.SwellHeight != null ? hour.SwellHeight : 0.0f,
                         SwellPeriod = hour.SwellPeriod != null ? hour.SwellPeriod : 0.0f,
@@ -55,6 +57,7 @@ namespace WeatherAPPV4.Controllers
 
                     var viewModel = weatherData.Hours.Select(hour => new WeatherViewModel
                     {
+                        CurrentTime = currentTime,
                         Time = hour.time,
                         SwellHeight = hour.SwellHeight?.noaa ?? 0,
                         SwellPeriod = hour.SwellPeriod?.noaa ?? 0,
@@ -84,7 +87,7 @@ namespace WeatherAPPV4.Controllers
                 using (var connection = new SqlConnection(_connectionString))
                 {
                     connection.Open();
-                    var result = connection.Query<WeatherViewModel>("SELECT Entrydate AS TIME,ROUND([SwellHeight], 2) AS SwellHeight,ROUND([SwellPeriod], 2) AS SwellPeriod,ROUND([SwellDirection], 2) AS SwellDirection,ROUND(AirTemperature, 2) AS AirTemperature,ROUND([WaterTemperature], 2) AS WaterTemperature,ROUND([WindDirection], 2) AS WindDirection,ROUND([WindSpeed], 2) AS WindSpeed FROM [WeatherAPP4].[dbo].[Weather]").ToList();
+                    var result = connection.Query<WeatherViewModel>("SELECT TOP 1 Entrydate AS [TIME],ROUND([SwellHeight], 2) AS SwellHeight,ROUND([SwellPeriod], 2) AS SwellPeriod,ROUND([SwellDirection], 2) AS SwellDirection,ROUND(AirTemperature, 2) AS AirTemperature,ROUND([WaterTemperature], 2) AS WaterTemperature,ROUND([WindDirection], 2) AS WindDirection, ROUND([WindSpeed], 2) AS WindSpeed FROM [WeatherAPP4].[dbo].[Weather] ORDER BY Entrydate asc;").ToList();
                     _logger.LogInformation($"DB Result: {JsonConvert.SerializeObject(result)}");
                     return result;
                 }
@@ -101,6 +104,7 @@ namespace WeatherAPPV4.Controllers
         {
             try
             {
+                var currentTime = DateTime.Now;
                 using (var connection = new SqlConnection(_connectionString))
                 {
                     connection.Open();
@@ -130,6 +134,7 @@ VALUES (
 
                         connection.Execute(query, new
                         {
+                            CurrentTime = currentTime,
                             time = hour.time,
                             Airtemperature = hour.Airtemperature?.noaa ?? 0,
                             SwellDirection = hour.SwellDirection?.noaa ?? 0,

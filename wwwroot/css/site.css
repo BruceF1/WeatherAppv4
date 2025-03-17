@@ -1,3 +1,12 @@
+.open-sans {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
+
+
 html {
   font-size: 14px;
 }
@@ -7,6 +16,47 @@ html {
     font-size: 16px;
   }
 }
+
+.topArea{
+    height:20%;
+}
+.midArea {
+    height: 60%;
+}
+.bottomArea {
+    position: absolute;
+    bottom: 0px;
+    height: 20%;
+}
+.borderLeft {
+    border-left-style: solid;
+    border-left-width: thin;
+    border-left-color: floralwhite;
+}
+
+.headings {
+    color: floralwhite;
+    font-family: 'Open Sans';
+    font-size: 20px;
+    font-weight: 500;
+    text-align:center;
+}
+
+.values {
+    color: floralwhite;
+    font-family: 'Open Sans';
+    font-size: 30px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.background {
+    background-image: url("/imgs/backgroundtemplate.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 
 .btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
   box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;

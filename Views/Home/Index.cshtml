@@ -2,8 +2,48 @@
 @{
     ViewData["Title"] = "Home Page";
 }
+<div class="container">
+    <div class="topArea values row row-cols-2 row-cols-lg-3">
+        <div class="col-4 col-lg-2"></div>
+        <div class="col-4 col-lg-2"></div>
+        <div class="col-4 col-lg-2"></div>
+        <div class="col-4 col-lg-2"> </div>
+        <div class="col-4 col-lg-2"> </div>
+        <div class="col-4 col-lg-2">@Model.FirstOrDefault()?.CurrentTime.ToString("yyyy-MM-dd HH:mm:ss")</div>
+    </div>
+    <div class="row row-cols-2 row-cols-lg-3">
+        <div class="col-4 col-lg-2"></div>
+        <div class="col-4 col-lg-2"></div>
+        <div class="col-4 col-lg-2"></div>
+        <div class="col-4 col-lg-2"> </div>
+        <div class="col-4 col-lg-2"> </div>
+        <div class="headings col-4 col-lg-2">Time Now</div>
+    </div>
 
-<table>
+    @foreach (var item in Model)
+    {
+        <div class="bottomArea">
+            <div class=" headings row row-cols-2 row-cols-lg-3">
+                <div class="borderLeft col-4 col-lg-2">Swell Height</div>
+                <div class="borderLeft col-4 col-lg-2">Swell Period</div>
+                <div class="borderLeft col-4 col-lg-2">Swell Direction</div>
+                <div class="borderLeft col-4 col-lg-2">Wind Direction</div>
+                <div class="borderLeft col-4 col-lg-2">Wind Speed</div>
+                <div class="borderLeft col-4 col-lg-2">Time Recorded</div>
+            </div>
+            <div class=" values row row-cols-2 row-cols-lg-3">
+                <div class="borderLeft col-4 col-lg-2">@item.SwellHeight m</div>
+                <div class="borderLeft col-4 col-lg-2">@item.SwellPeriod secs</div>
+                <div class="borderLeft col-4 col-lg-2">@item.SwellDirection</div>
+                <div class="borderLeft col-4 col-lg-2">@item.Winddirection</div>
+                <div class="borderLeft col-4 col-lg-2">@item.Windspeed kts</div>
+                <div class="borderLeft col-4 col-lg-2">@item.Time</div>
+        </div>
+        </div>
+    }
+</div>
+
+@* <table>
     <thead>
         <tr>
             <th>Time</th>
@@ -31,5 +71,5 @@
             </tr>
         }
     </tbody>
-</table>
+</table> *@
 
