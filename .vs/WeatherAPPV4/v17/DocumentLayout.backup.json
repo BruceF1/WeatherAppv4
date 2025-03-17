@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\BruceFarthing\\source\\repos\\WeatherAPPV4\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{8596B04D-D9ED-4584-A6A4-66D9B7BBD84B}|WeatherAPPV4.csproj|c:\\users\\brucefarthing\\source\\repos\\weatherappv4\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8596B04D-D9ED-4584-A6A4-66D9B7BBD84B}|WeatherAPPV4.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{8596B04D-D9ED-4584-A6A4-66D9B7BBD84B}|WeatherAPPV4.csproj|c:\\users\\brucefarthing\\source\\repos\\weatherappv4\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8596B04D-D9ED-4584-A6A4-66D9B7BBD84B}|WeatherAPPV4.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8596B04D-D9ED-4584-A6A4-66D9B7BBD84B}|WeatherAPPV4.csproj|c:\\users\\brucefarthing\\source\\repos\\weatherappv4\\models\\weatherviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8596B04D-D9ED-4584-A6A4-66D9B7BBD84B}|WeatherAPPV4.csproj|solutionrelative:models\\weatherviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8596B04D-D9ED-4584-A6A4-66D9B7BBD84B}|WeatherAPPV4.csproj|c:\\users\\brucefarthing\\source\\repos\\weatherappv4\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8596B04D-D9ED-4584-A6A4-66D9B7BBD84B}|WeatherAPPV4.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8596B04D-D9ED-4584-A6A4-66D9B7BBD84B}|WeatherAPPV4.csproj|c:\\users\\brucefarthing\\source\\repos\\weatherappv4\\models\\hour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -42,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 70,
-          "SelectedChildIndex": 40,
+          "SelectedChildIndex": 41,
           "Children": [
             {
               "$type": "Bookmark",
@@ -234,26 +234,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\BruceFarthing\\source\\repos\\WeatherAPPV4\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
               "ToolTip": "C:\\Users\\BruceFarthing\\source\\repos\\WeatherAPPV4\\Controllers\\HomeController.cs",
               "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AgIAAGEAAAAAAAAAAAAhwGkAAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAASwCsAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-02T08:20:03.035Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\BruceFarthing\\source\\repos\\WeatherAPPV4\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
               "ToolTip": "C:\\Users\\BruceFarthing\\source\\repos\\WeatherAPPV4\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-03-02T08:20:03.31Z",
               "EditorCaption": ""
@@ -353,7 +353,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "WeatherViewModel.cs",
               "DocumentMoniker": "C:\\Users\\BruceFarthing\\source\\repos\\WeatherAPPV4\\Models\\WeatherViewModel.cs",
               "RelativeDocumentMoniker": "Models\\WeatherViewModel.cs",
